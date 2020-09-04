@@ -10,7 +10,7 @@ import Foundation
 
 class Model {
     
-    func getVideos (){
+    func getVideos() {
         
         //Creat URL object
         let url = URL(string: Constants.API_URL)
