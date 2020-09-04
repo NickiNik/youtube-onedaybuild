@@ -10,8 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    // Instance of the model
     var model = Model()
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
