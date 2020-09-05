@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
    
     // trying again
-    var model = Model ()
+    var model = Model()
 
     override func viewDidLoad() {
         super.viewDidLoad()
