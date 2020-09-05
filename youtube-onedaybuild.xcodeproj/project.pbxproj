@@ -17,6 +17,8 @@
 		7A325BF92502DF5E0073E757 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A325BF82502DF5E0073E757 /* Video.swift */; };
 		7A325BFB2502DFA30073E757 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A325BFA2502DFA30073E757 /* Model.swift */; };
 		7A325BFD2502EFF70073E757 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A325BFC2502EFF70073E757 /* Response.swift */; };
+		7A61FF4B2504168000DB0B3C /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61FF4A2504168000DB0B3C /* VideoTableViewCell.swift */; };
+		7A61FF522504258900DB0B3C /* Cache Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A61FF512504258900DB0B3C /* Cache Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		7A325BF82502DF5E0073E757 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 		7A325BFA2502DFA30073E757 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		7A325BFC2502EFF70073E757 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		7A61FF4A2504168000DB0B3C /* VideoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		7A61FF512504258900DB0B3C /* Cache Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Cache Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,17 +70,59 @@
 			children = (
 				7A1C7DA22502B03D001EA00B /* AppDelegate.swift */,
 				7A1C7DA42502B03D001EA00B /* SceneDelegate.swift */,
-				7A1C7DA62502B03D001EA00B /* ViewController.swift */,
-				7A1C7DA82502B03D001EA00B /* Main.storyboard */,
+				7A61FF50250416C400DB0B3C /* Helper */,
+				7A61FF4F250416BC00DB0B3C /* Storyboards */,
+				7A61FF4E250416B700DB0B3C /* Models */,
+				7A61FF4D250416B000DB0B3C /* Views */,
+				7A61FF4C2504169800DB0B3C /* View Controllers */,
 				7A1C7DAB2502B03F001EA00B /* Assets.xcassets */,
-				7A1C7DAD2502B03F001EA00B /* LaunchScreen.storyboard */,
 				7A1C7DB02502B03F001EA00B /* Info.plist */,
-				7A325BF62502DAD00073E757 /* Constants.swift */,
+			);
+			path = "youtube-onedaybuild";
+			sourceTree = "<group>";
+		};
+		7A61FF4C2504169800DB0B3C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7A1C7DA62502B03D001EA00B /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7A61FF4D250416B000DB0B3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7A61FF4A2504168000DB0B3C /* VideoTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7A61FF4E250416B700DB0B3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
 				7A325BF82502DF5E0073E757 /* Video.swift */,
 				7A325BFA2502DFA30073E757 /* Model.swift */,
 				7A325BFC2502EFF70073E757 /* Response.swift */,
 			);
-			path = "youtube-onedaybuild";
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A61FF4F250416BC00DB0B3C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				7A1C7DAD2502B03F001EA00B /* LaunchScreen.storyboard */,
+				7A1C7DA82502B03D001EA00B /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		7A61FF50250416C400DB0B3C /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				7A325BF62502DAD00073E757 /* Constants.swift */,
+				7A61FF512504258900DB0B3C /* Cache Manager.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,11 +196,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A61FF522504258900DB0B3C /* Cache Manager.swift in Sources */,
 				7A1C7DA72502B03D001EA00B /* ViewController.swift in Sources */,
 				7A1C7DA32502B03D001EA00B /* AppDelegate.swift in Sources */,
 				7A1C7DA52502B03D001EA00B /* SceneDelegate.swift in Sources */,
 				7A325BFB2502DFA30073E757 /* Model.swift in Sources */,
 				7A325BF72502DAD00073E757 /* Constants.swift in Sources */,
+				7A61FF4B2504168000DB0B3C /* VideoTableViewCell.swift in Sources */,
 				7A325BF92502DF5E0073E757 /* Video.swift in Sources */,
 				7A325BFD2502EFF70073E757 /* Response.swift in Sources */,
 			);
